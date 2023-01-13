@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: cadetblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+footer ul li {
+  list-style: none;
+  
+}
