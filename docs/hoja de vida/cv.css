@@ -1,19 +1,150 @@
 body {
   display: flex;
   flex-wrap: wrap;
-  background-color: cadetblue;
+  background-color: #5f9ea0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
+header img {
+  width: 70%;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 main {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+#about{
+  width: 400px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f8ff;
+  margin-top: 30px;
+}
+#about:hover{
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: -10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#skills {
+  width: 400px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  background-color: #f0f8ff;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+#skills:hover {
+
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: -10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#skills ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+
+#information {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#referencias {
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #f0f8ff;
+}
+
+#referencias:hover {
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: -10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#referencias article{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+#formacion {
+  width: 400px;
+  background-color: #f0f8ff;
+  padding: 10px;
+}
+#formacion:hover {
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: -10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#formacion article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer ul {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
 
 footer ul li {
-  list-style: none;
-  
+  padding: 10px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+
+footer ul li:hover {
+  margin-left: -5px;
+  transition: 0.5s;
+  font-size: large;
+  font-weight: bold;
+}
+
+footer ul li a{
+  color: #000;
+  text-decoration: none;
 }
