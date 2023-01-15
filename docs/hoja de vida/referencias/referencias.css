@@ -1,19 +1,9 @@
-:root{
-  --fondo: #5f9ea0;
-  --fondoFooter: #3c6566;
-  --fuente:   font-family: 'Akshar', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+@import url("../cv.css");
+
+body{
+  background-color: (--fondo);
 }
-body {
-  display: flex;
-  background-color: var(--fondo);
-  font-family: var(--fuente);
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0;
-  height: 100%;
-}
+
 header{
   display: flex;
   justify-content: space-evenly;
@@ -47,58 +37,57 @@ header ul a:hover{
   margin-right: 5px;
   transition: 800ms;
 }
-header img {
-  width: 70%;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-main {
-  display: flex;
+
+#information {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  flex-wrap: wrap;
-  
 }
 
-#about{
+#referencias {
   width: 400px;
-  display: flex;
+  height: 40%;
   padding: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f0f8ff;
-  margin-top: 30px;
-}
-#about:hover{
-  border-radius: 50px;
-  transition: 0.5s;
-  margin-top: -10px;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#skills {
-  width: 400px;
-  display: flex;
-  padding: 10px;
-  flex-direction: column;
-  background-color: #f0f8ff;
   align-content: center;
-  flex-wrap: wrap;
-  margin-top: 30px;
+  background-color: #f0f8ff;
 }
 
-#skills:hover {
+#referencias:hover {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: -10px;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#skills ul {
+#referencias article{
+  margin: 0px;
   display: flex;
-  list-style: none;
   flex-direction: column;
+}
+
+#formacion {
+  width: 400px;
+  background-color: #f0f8ff;
+  padding: 10px;
+  height: 40%;
+}
+#formacion:hover {
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: -10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#formacion article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 footer {
@@ -106,9 +95,11 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 7%;
+  margin-top: 15px;
   background-color: var(--fondoFooter);
-  height: 60px;
+  margin-left: 0%;
+  height: 20%;
+
 }
 
 img {
