@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contacto.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <script src="./contacto.js" defer></script>
+    <header>
+      <h1>Nicolas Olmos</h1>
+      <nav>
+        <ul>
+          <li><a href="../cv.html">Inicio</a></li>
+          <li><a href="../referencias/referencias.html">Referencias</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form action="" id="form">
+      <label for="nombre"
+        >Escribe tu nombre
+        <input
+          required
+          type="text"
+          id="nombre"
+          placeholder="escribe tu nombre"
+        />
+      </label>
+      <label for="correo"
+        >Escribe tu correo
+        <input
+          required
+          type="email"
+          id="correo"
+          placeholder="escribe tu correo"
+        />
+      </label>
+      <label for="textarea"
+        >deja tu mensaje
+        <textarea name="mensaje" id="textarea" required></textarea>
+      </label>
+      <label for="validation">
+        ¿aceptas los terminos y condiciones?
+        <input required type="checkbox" id="validation" />
+      </label>
+      <button type="submit">ingresar</button>
+    </form>
+    <h3 id="respuesta"></h3>
+    <footer>
+      <a href="https://github.com/nicolasnos">
+        <img src="../../img/github-svgrepo-com.svg" alt="github logo" />
+      </a>
+      <a href="https://www.instagram.com/nicolas.olmos.13/">
+        <img src="../../img/iconmonstr-instagram-11.svg" alt="github logo" />
+      </a>
+      <a href="https://web.whatsapp.com/">
+        <img src="../../img/iconmonstr-whatsapp-1.svg" alt="github logo" />
+      </a>
+      <a href="https://www.linkedin.com/in/nicolas-olmos-a7a1ba261/">
+        <img
+          src="../../img/linkedin-fill-svgrepo-com.svg"
+          alt="linkedin logo"
+        />
+      </a>
+    </footer>
+  </body>
+</html>

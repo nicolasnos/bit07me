@@ -1,4 +1,4 @@
-titulo: nombre del proyecto.
+titulo: hoja de vida de Nicolas Olmos.
 
 descripcion: proyecto en el que se muestra una presentacion del desarrollador.
 
