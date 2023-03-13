@@ -49,10 +49,8 @@ header ul a{
 
 header ul a:hover{
   font-size: large;
-  font-weight: 800;
-  margin-left: 5px;
-  margin-right: 5px;
-  transition: 800ms;
+  font-weight: bold;
+  transition: 500ms;
 }
 header img {
   width: 40%;
@@ -76,6 +74,7 @@ main {
   align-items: center;
   background-color: #f0f8ff;
   margin-top: 30px;
+  border-radius: 30px;
 }
 #about:hover{
   border-radius: 50px;
@@ -93,6 +92,7 @@ main {
   align-content: center;
   flex-wrap: wrap;
   margin-top: 30px;
+  border-radius: 30px;
 }
 
 #skills:hover {
