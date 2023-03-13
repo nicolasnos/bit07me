@@ -67,9 +67,11 @@ form input {
 
 }
 form input:focus{
-
+  border: transparent;
+  border-bottom: 3px solid var(--fondo);
   transition: 0.5s;
   background-color: #f5f5f5;
+  outline: none;
 }
 
 form textarea{
@@ -80,6 +82,9 @@ form textarea{
 
 form textarea:focus{
   border-color: transparent;
+  outline: none;
+  border: 3px solid var(--fondo);
+
 }
 
 form button {
